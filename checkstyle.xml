@@ -5,9 +5,6 @@
     <property name="severity" value="warning" />
 
     <module name="TreeWalker">
-        <module name="FileTabCharacter">
-            <property name="eachLine" value="true" />
-        </module>
         <module name="Indentation">
             <property name="basicOffset" value="4" />
             <property name="braceAdjustment" value="0" />

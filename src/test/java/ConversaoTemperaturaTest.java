@@ -1,8 +1,8 @@
-import static org.junit.Assert.assertEquals;
+
 
 import gc.jenkins.Main;
 import org.junit.Test;
-
+import static org.junit.Assert.assertEquals;
 public class ConversaoTemperaturaTest {
 
     @Test

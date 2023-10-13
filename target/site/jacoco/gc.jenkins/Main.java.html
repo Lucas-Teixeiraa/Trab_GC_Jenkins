@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Trab_GC_Jenkins</a> &gt; <a href="index.source.html" class="el_package">gc.jenkins</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package gc.jenkins;
+
+<span class="nc" id="L3">public class Main {</span>
+    public static double fahrenheitParaCelsius(double temperaturaF) {
+<span class="fc" id="L5">        return (temperaturaF - 32) * 5.0 / 9.0;</span>
+    }
+
+    public static double celsiusParaFahrenheit(double temperaturaC) {
+<span class="nc" id="L9">        return (temperaturaC * 9.0 / 5.0) + 32;</span>
+    }
+
+    public static void main(String[] args) {
+        // Casos de teste para conversão de Fahrenheit para Celsius
+<span class="nc" id="L14">        double temperatura1F = 32.0;</span>
+<span class="nc" id="L15">        double resultado1C = fahrenheitParaCelsius(temperatura1F);</span>
+<span class="nc" id="L16">        System.out.println(temperatura1F + &quot;°F é igual a &quot; + resultado1C + &quot;°C&quot;);</span>
+
+<span class="nc" id="L18">        double temperatura2F = 100.0;</span>
+<span class="nc" id="L19">        double resultado2C = fahrenheitParaCelsius(temperatura2F);</span>
+<span class="nc" id="L20">        System.out.println(temperatura2F + &quot;°F é igual a &quot; + resultado2C + &quot;°C&quot;);</span>
+
+<span class="nc" id="L22">        double temperatura3F = 212.0;</span>
+<span class="nc" id="L23">        double resultado3C = fahrenheitParaCelsius(temperatura3F);</span>
+<span class="nc" id="L24">        System.out.println(temperatura3F + &quot;°F é igual a &quot; + resultado3C + &quot;°C&quot;);</span>
+<span class="nc" id="L25">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

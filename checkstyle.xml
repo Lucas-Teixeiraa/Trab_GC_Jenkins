@@ -8,10 +8,11 @@
         <module name="Indentation">
             <property name="basicOffset" value="4" />
             <property name="braceAdjustment" value="0" />
-            <property name="caseAdjustment" value="0" />
+            <property name="caseIndent" value="4" />
             <property name="throwsIndent" value="4" />
             <property name="lineWrappingIndentation" value="4" />
         </module>
+
         <module name="LineLength">
             <property name="max" value="120" />
             <property name="ignorePattern" value="^import\s.*" />
